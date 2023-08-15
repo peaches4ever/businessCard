@@ -1,19 +1,18 @@
 echo "##################################################################################################"
 echo "####################               All your base are belong to us             ####################"
 start-sleep 1
-echo "# youve been hacked #"
+echo "####################        You got this far, but there's one more step       ####################"
 start-sleep 1
-echo "# why did you run this script #"
+echo "####################                Decrypt the following text                ####################"
 start-sleep 1
-echo "# don't do that again #"
-start-sleep 5
-echo "# just kidding this script does nothing... #"
-start-sleep 5
-echo "# have a song #"
-echo "#  #"
+echo ""
+start-sleep 3
+echo "#                                                                                                #"
+echo "####################                            Hint:                         ####################"
+echo "####################      The key is the name of the writer of this song:     ####################"
+echo "#                                                                                                #"
 echo "##################################################################################################"
-start-sleep 1
-
+start-sleep 3
 
 start-job {
 [console]::beep(440,500)
